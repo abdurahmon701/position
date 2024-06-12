@@ -1,0 +1,270 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 20px;
+    z-index: 99;
+}
+.head{
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 5px 7px 8px;
+}
+.absolute{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 390px;
+    left: 280px;
+}
+.absolute h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: white;
+    text-shadow: 0px 5px 5px;
+}
+.relative{
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    margin-top: 100px;
+}
+.relative h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: red;
+    text-shadow: 0px 5px 5px;
+}
+.box1{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.pos{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 70px;
+    color: black;
+    margin-left: 32%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+main{
+    background-image: url('./Rectangle\ 2\ \(7\).png');
+    padding: 5px;
+    height: 700px;
+}
+.absolute1{
+    width: 350px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 390px;
+    left: 550px;
+    border-radius: 100px;
+}
+.absolute1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: white;
+    text-shadow: 0px 5px 5px;
+}
+.relative1{
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    margin-top: 100px;
+}
+.relative1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: red;
+    text-shadow: 0px 5px 5px;
+}
+.box2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.absolute2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 390px;
+    left: 950px;
+}
+.absolute2 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: white;
+    text-shadow: 0px 5px 5px;
+}
+.relative2{
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    margin-top: 100px;
+}
+.relative2 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: red;
+    text-shadow: 0px 5px 5px;
+}
+.box3{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.inf{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 70px;
+    color: black;
+    margin-left: 32%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.foot{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    padding: 5px;
+}
+.cards{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+.card1{
+    text-shadow: 0px 5px 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7B2525;
+    padding: 5px;
+}
+.card1 h1{
+    margin-bottom: 60px;
+    text-shadow: 0px 5px 5px;
+}
+.card1 p{
+    margin-top: 10px;
+    margin-bottom: 130px ;
+}
+.card2{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: #7B2525;
+    padding: 5px;
+    text-shadow: 0px 5px 5px;
+}
+.rel{
+    width: 270px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rel div{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+.rela{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    background-color: rgb(0, 106, 0);
+}
+.card3{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: #7B2525;
+    padding: 5px;
+    text-shadow: 0px 5px 5px;
+}
+.abs{
+    width: 270px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abs div{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+.abso{
+    position: absolute;
+    top: 1250px;
+    left: 1030px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 106, 0);
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.footer{
+    width: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 0px 5px 5px;
+}
